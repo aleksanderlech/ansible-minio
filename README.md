@@ -34,6 +34,11 @@ Release to install for both server and client; lastest if the default.
 Can be 'RELEASE.2019-06-27T21-13-50Z' for instance.
 
 ```yaml
+minio_download_base: https://dl.minio.io
+```
+Custom download server root; default is as show below (https://dl.minio.io)
+
+```yaml
 minio_user: minio
 minio_group: minio
 ```
